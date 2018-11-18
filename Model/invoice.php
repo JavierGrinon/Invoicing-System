@@ -19,7 +19,7 @@ class invoice
 
 	private $created_at;
 
-	function __toString()
+	public function __toString()
 	{
 		return $this->getClient();
 	}

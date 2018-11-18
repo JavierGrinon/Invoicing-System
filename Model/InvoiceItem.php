@@ -13,7 +13,7 @@ class invoice_item
 
 	private $created_at;
 
-	function __toString()
+	public function __toString()
 	{
 		return $this->getName();
 	}
